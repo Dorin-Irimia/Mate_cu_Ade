@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: All_Discord_Files
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python3 backend/app.py"  # Asigură-te că comanda de start este corectă
+    plan: free  # sau alt plan după preferințe
